@@ -18,7 +18,7 @@ public class TrianglePerimeterTests {
     @Parameterized.Parameter(3)
     public int expectedResult;
 
-    @Parameterized.Parameters(name = "Triangle with sides [{0}, {1}, {2}] has perimeter {3}")
+    @Parameterized.Parameters(name = "Triangle with sides [{0}, {1}, {2}] should have perimeter {3}")
     public static Object[][] data() {
         return new Object[][] {
                 { 1, 2, 3, 6 },
